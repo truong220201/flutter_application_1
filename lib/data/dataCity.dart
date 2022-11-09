@@ -40,5 +40,5 @@ var ctlist = [
     imge: 'Clouldy',
   ),
 ];
-
+var okcheck;
 var nameCitya = ['London', 'Hanoi'];
