@@ -1,14 +1,24 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class spaceHeight extends StatelessWidget {
+  const spaceHeight({super.key});
+
   Widget build(BuildContext context) {
-    return Container(height: 20.0.pxToPercentage(context));
+    return Container(
+      height: 20.0.pxToPercentage(context),
+      width: 0,
+    );
   }
 }
 
 class spaceWidth extends StatelessWidget {
   Widget build(BuildContext context) {
-    return Container(width: 20.0.pxToPercentage(context));
+    return Container(
+      width: 20.0.pxToPercentage(context),
+      height: 0,
+    );
   }
 }
 
